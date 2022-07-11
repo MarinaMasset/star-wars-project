@@ -1,24 +1,31 @@
 header {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
 }
 .gauche {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-start;
-    align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
 }
 .droite {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-end;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
 }
-a {
-    color: black;
-    text-decoration: none;
-    margin-right: 50px;
+.lien {
+  color: black;
+  text-decoration: none;
+  font-size: large;
+  text-align: center;
+  margin-right: 50px;
+  background-color: white;
 }
-input {
-    margin-left: 50px;
+.lien:hover {
+    border: 2px dotted black;
+    font-weight: bolder;
+}
+.bouton {
+  margin-left: 50px;
 }

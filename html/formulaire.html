@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Accueil SW</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='.css'>
+    <script src='.js'></script>
+    <style>
+        header {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+        }
+        .gauche {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        .droite {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+        }
+        .lien {
+            color: black;
+            text-decoration: none;
+            font-size: large;
+            text-align: center;
+            margin-right: 50px;
+            background-color: white;
+        }
+        .bouton {
+            margin-left: 50px;
+        }
+        footer {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+        }
+        .pied {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+        }
+        .credit {
+            text-align: center;
+        }
+        .film {
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .accueil {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-around;
+            align-items: center;
+            margin: 5% 0% 5% 5%;
+        }
+        .left, .center, .right {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            width: 25%;
+        }
+        .lien:hover {
+            border: 2px dotted black;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="gauche">
+        <a href="" class="lien"><img src="../images/logo.png" width="100px" height="50px"/></a>
+        <a href="" class="lien">Films</a>
+        <a href="" class="lien">Personnages</a>
+        <a href="" class="lien">Planètes</a>
+        <a href="" class="lien">Corporations</a>
+        <a href="" class="lien">Contact</a>
+    </div>
+    <div class="droite">
+        <input type="button" class="bouton" value ="Inscription" href="">
+        <input type="button" class="bouton" value="Connexion" href="">
+    </div>
+    </header>
+    <main class="accueil">
+        <div class="left">
+            <a href="" class="lien"><img class="film" src="../images/movies/poster1.jpg"/>Film 1: La Menace Fantôme</a>
+        </div>
+        <div class="center">
+            <a href="" class="lien"><img class="film" src="../images/movies/poster2.jpg"/>Film 2: L'attaque des clones</a>
+        </div>
+        <div class="right">
+            <a href="" class="lien"><img class="film" src="../images/movies/poster3.jpg"/>Film 3: La Revanche des Siths</a>
+        </div>
+    </main>
+    <footer>
+        <div class="pied">
+        <a href="" class="lien">Films</a>
+        <a href="" class="lien">Personnages</a>
+        <a href="" class="lien">Planètes</a>
+        <a href="" class="lien">Corporations</a>
+        <a href="" class="lien">Contact</a>
+        </div>
+        <div class="credit">
+            <p>@ 2022 MEVY - Created with passion</p>
+        </div>
+    </footer>
+</body>
+</html>
