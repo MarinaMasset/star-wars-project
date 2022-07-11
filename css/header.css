@@ -1,0 +1,24 @@
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.gauche {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.droite {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+}
+a {
+    color: black;
+    text-decoration: none;
+    margin-right: 50px;
+}
+input {
+    margin-left: 50px;
+}
