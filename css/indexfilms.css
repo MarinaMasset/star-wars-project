@@ -1,0 +1,28 @@
+.accueil {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5% 0% 10% 0%;
+}
+
+.left>a, .center>a, .right>a {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content:center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+.left:hover, .center:hover, .right:hover {
+    border: 2px solid black;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+iframe {
+    width: 100%;
+}
+.indexfilm {
+    max-width: 75%;
+    margin-left: 1%;
+}
