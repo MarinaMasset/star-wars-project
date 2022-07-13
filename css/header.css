@@ -13,22 +13,22 @@ header {
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-end;
+  align-items: center;
 }
-.lien {
+.gauche>a {
   color: black;
   text-decoration: none;
   font-size: large;
   text-align: center;
   margin-right: 50px;
-  background-color: white;
 }
-<<<<<<< HEAD
-.lien:hover {
-    border: 2px dotted black;
-    font-weight: bolder;
+.btn {
+  border: 2px solid black;
+  border-radius: 2rem;
+  background-color: lightgrey;
+  padding: 1% 5% 1% 5%;
+  margin-left: 10%;
+  text-decoration: none;
+  color: black;
 }
-.bouton {
-  margin-left: 50px;
-}
-=======
->>>>>>> 92bd6a71c9b48d1ef32b53888d2249ebf2528f23
+
