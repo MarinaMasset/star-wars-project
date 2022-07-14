@@ -1,5 +1,6 @@
 body {
-background-image:url(../images/background/starrysky.jpg)
+background-image:url(../images/background/starrysky.jpg);
+font-size:1.1em;
 }
 
 .container {
@@ -10,12 +11,12 @@ color: white;
 
 a:link {
     text-decoration: none;
-    color:#d8d3a2   ;
+    color:#b98f3d  ;
 }
 
 a:visited {
     text-decoration: none;
-    color:#B8B8B8;
+    color:#b8b8b80c;
 }
 
 .movie {
@@ -51,4 +52,34 @@ text-align: justify;
 .trailer {
     padding-bottom: 10%;
     padding-top:10%;
+}
+
+@media screen and (max-width:912px) {
+    .movie {
+        display:flex;
+        flex-direction: column;
+        width:100%;
+        margin-left:0%;
+        margin-right:0%;
+        }
+        .poster {
+            width:100%;
+        }
+        .synopsis {
+            width:98%;
+            text-align:left;
+        }
+        }
+
+@media screen and (min-width:500px) {
+    .synopsis {
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1280px){
+    .synopsis {
+        width:55%;
+        margin-left:10%;
+    }
 }
