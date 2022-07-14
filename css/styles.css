@@ -1,7 +1,28 @@
-iframe{
-    width: 100%;
+@font-face {
+	font-family: "Moonhouse";
+	src: url("fonts/Moonhouse-yE5M.ttf") format("truetype");
 }
-.container{
-    margin-left: 10% !important;
-    margin-right: 10% !important;
+
+body {
+	/* reset */
+	padding: 0 !important;
+	margin: 0 !important;
+	/* end reset */
+
+	background-image: url(../images/background/starrysky.jpg);
+	font-family: Moonhouse;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	color: #b98f3d;
+}
+
+iframe {
+	width: 100%;
+}
+.container {
+	margin-left: 10% !important;
+	margin-right: 10% !important;
 }

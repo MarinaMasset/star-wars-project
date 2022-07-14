@@ -1,9 +1,14 @@
 .title {
+    color: #EFA23A;
 	text-align: center;
 }
 .card {
+    text-align: center;
+    box-shadow: 0px 0px 10px #EFA23A;
+    border: solid 3px #EFA23A;
+    border-radius: 1rem;
     padding: 1rem;
-	text-align: center;
+    margin: 1rem;
 	width: 15%;
 }
 .list {
@@ -13,6 +18,10 @@
 }
 .card img {
 	width: 100%; 
+}
+
+.bg-white{
+    background: #fff;
 }
 
 @media (max-width: 700px) {
