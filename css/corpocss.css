@@ -33,10 +33,13 @@ h2 {
 
 
 .card {
+    background-color: #ffffff6b;
     border-radius: 7px;
     padding-left: 3%;
     border: solid 2px yellow;
     height: 160px;
     width: 120px;
+    padding: 3%;
+    text-align: center;
 }
 
