@@ -1,15 +1,15 @@
 .personnages {
-    color:white;
+    color: white;
     background-color: black;
     background-size: cover;
 
 }
 
-h1  {
+h1 {
     text-align: center;
     text-decoration: underline;
     text-align: center;
-    
+
 
 }
 
@@ -17,7 +17,7 @@ h2 {
     padding: 2%;
     text-decoration: underline;
     text-align: center;
-  
+
     border-radius: 61px;
 
 }
@@ -38,22 +38,36 @@ h2 {
     background-color: #ffffff6b;
     border-radius: 7px;
     padding-left: 3%;
-    
+
     border: solid 3px #EFA23A;
     height: 160px;
     width: 120px;
     padding: 3%;
     text-align: center;
-  
+
 }
 
 
 
-.card:hover{
-     box-shadow: 5px 0px 10px #EFA23A;
-    transform: scale(1.5)  ;
+.card:hover {
+    box-shadow: 5px 0px 10px #EFA23A;
+    transform: scale(1.5);
     width: 150px;
     background-color: rgba(255, 217, 0, 0.228);
     transition: transform 400ms ease-in-out;
+    background-image: url(../../Projet-Star-Wars/images/background/force.gif);
+    background-repeat:round ;
+   
+
+}
+
+
+.robot {
+    width: 150px;
+    height: 150px;
+    margin-left: 37%;
+    width: 160px;
+    height: 150px;
+    margin-top: 6%;
 
 }
