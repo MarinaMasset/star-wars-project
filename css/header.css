@@ -3,6 +3,7 @@ header {
   flex-flow: row nowrap;
   justify-content: space-between;
 }
+
 .gauche {
   display: flex;
   flex-flow: row nowrap;
@@ -21,16 +22,27 @@ header {
   margin-right: 8%;
 }
 .btn {
-  border: 2px solid black;
+  border: 2px solid white;
   border-radius: 2rem;
-  background-color: lightgrey;
+  background-color: #b98f3d;
   padding: 1% 5% 1% 5%;
   margin-left: 10%;
   text-decoration: none;
   color: black;
+  box-shadow: 3px 2px 2px grey;
 }
 
-@media screen and (max-width:800px) {
+.menuheader {
+  width:750px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+@media screen and (max-width:820px) {
+  .menuheader {
+    width:initial;
+  }
   .gauche>a {
     margin-right: 0%; 
 }
@@ -42,7 +54,7 @@ header {
   }
   }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:820px) {
   header {
     width:100%;
     justify-content: space-evenly;
@@ -59,8 +71,16 @@ header {
   }
 }
 
+@media screen and (max-width:320px) {
+header {
+  font-size: 0.7em;
+}
+.droite {
+  margin-right: 4%;
+}
+}
 
-@media screen and (min-width:370px) and (max-width:416px) {
+@media screen and (min-width:360px) and (max-width:416px) {
   .droite {
     margin-right:5%;
     margin-top:2%;
@@ -80,9 +100,18 @@ header {
   }
 }
 
-@media screen and (min-width:821px) and (max-width:912px) {
+@media screen and (min-width:701px) and (max-width:820px) {
   .menuheader {
-    padding-left:4%;
+   padding-left:27%;
+  }
+}
+
+@media screen and (min-width:821px) and (max-width:912px) {
+  .gauche>a {
+    margin-right: 0%; 
+  }
+  .menuheader {
+    width:500px;
   }
   .droite {
     margin-right:2%;
@@ -93,29 +122,30 @@ header {
   .gauche>a {
     margin-right: 0%; 
   }
+  .menuheader {
+    width:580px;
+  }
   header {
     width:100%;
-    justify-content: space-around;
-}
+    justify-content: space-between;
+  }
   .droite {
-    margin-right:9%;
+    margin-right:2%;
   }
-  .logo {
-    margin-left:10%;
-  }
+}
 
 @media screen and (min-width:1025px) and (max-width:1280px) {
   .gauche>a {
     margin-right: 0%; 
-}
-header {
+  }
+  .menuheader {
+    margin-left:2%;
+  }
+  header {
   width:100%;
-  justify-content: space-around;
-}
+  justify-content: space-between;
+  }
   .droite {
-    margin-right:4%;
+  margin-right:2%;
   }
-  .logo {
-    margin-left:4%;
   }
-}
