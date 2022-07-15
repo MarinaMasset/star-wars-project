@@ -52,6 +52,13 @@ text-align: justify;
 .trailer {
     padding-bottom: 10%;
     padding-top:10%;
+    display:flex;
+    justify-content: center;
+}
+
+.integration {
+    width:1000px;
+    height:650px;
 }
 
 @media screen and (max-width:912px) {
