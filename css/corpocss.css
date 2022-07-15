@@ -56,7 +56,8 @@ h2 {
     background-color: rgba(255, 217, 0, 0.228);
     transition: transform 400ms ease-in-out;
     background-image: url(../../Projet-Star-Wars/images/background/force.gif);
-    background-repeat:round ;
+    background-repeat:round;
+    
    
 
 }
