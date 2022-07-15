@@ -4,13 +4,13 @@ body {
 }
 
 .contact {
-  color: gold;
+  color: #b98f3d;
   max-width: 100%;
   max-height: 100%;
   margin: auto;
   width: 600px;
   height: 300px;
-  border: solid 1px gold;
+  border: solid 1px #b98f3d;
   border-radius: 5px;
   background-color: black;
 }
@@ -29,24 +29,19 @@ h1 {
 }
 
 #envoyer {
-  border: solid 2px gold;
+  border: solid 2px #b98f3d;
   border-radius: 2px;
-  color: gold;
+  color: #b98f3d;
   background-color: black;
 }
 #reset {
-  border: solid 2px gold;
+  border: solid 2px #b98f3d;
   border-radius: 2px;
-  color: gold;
+  color: #b98f3d;
   background-color: black;
 }
-.bouton {
-  margin-left: 50px;
-}
+
 
 #remarques{
-  max-width: 300px;
-  max-height: 140px;
-  min-width: 300px;
-  min-height: 140px;
+  resize: none;
 }
