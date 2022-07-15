@@ -1,0 +1,115 @@
+body {
+  background-image: url(../images/background/starrysky.jpg);
+}
+.contact {
+  color: gold;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  width: 600px;
+  height: 300px;
+  border: solid 1px gold;
+  border-radius: 5px;
+  background-color: black;
+}
+h1 {
+  text-align: center;
+
+}
+#contacts {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+#infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#envoyer {
+  border: solid 2px gold;
+  border-radius: 2px;
+  color: gold;
+  background-color: black;
+}
+#reset {
+  border: solid 2px gold;
+  border-radius: 2px;
+  color: gold;
+  background-color: black;
+}
+
+iframe {
+  width: 100%;
+}
+.film {
+  max-width: 100%;
+  max-height: 100%;
+}
+.accueil {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5% 0% 5% 5%;
+}
+.left,
+.center,
+.right {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+footer {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  margin: 0 20%;
+}
+.pied {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+a {
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+.credit {
+  text-align: center;
+}
+header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.gauche {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.droite {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+.lien {
+  color: black;
+  text-decoration: none;
+  font-size: large;
+  text-align: center;
+  margin-right: 50px;
+  background-color: white;
+}
+HEAD .lien:hover {
+  border: 2px dotted black;
+  font-weight: bolder;
+}
+.bouton {
+  margin-left: 50px;
+}
