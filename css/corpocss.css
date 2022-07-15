@@ -1,6 +1,6 @@
 .personnages {
     color:white;
-   background-color: black;
+    background-color: black;
     background-size: cover;
 
 }
@@ -49,8 +49,10 @@ h2 {
 
 
 .card:hover{
-    transform: scale(1.5) translate(50%, -50% );
+    box-shadow: 4px 4px #808000a3, -1em 0 0.4em #58441db8;
+    transform: scale(1.5) translate(50%, -30% );
     width: 150px;
     background-color: rgba(255, 217, 0, 0.228);
-    transition: transform 330ms ease-in-out
+    transition: transform 400ms ease-in-out;
+    background-color: rgba(255, 217, 0, 0.205);
 }
