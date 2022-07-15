@@ -14,12 +14,12 @@ body {
 	color: white;
 }
 
-main{
-    min-height: 100vh;
+main {
+	min-height: 100vh;
 }
 
-footer{
-    margin-top: 2rem;
+footer {
+	margin-top: 2rem;
 }
 
 a {
@@ -27,9 +27,9 @@ a {
 	color: #b98f3d;
 }
 
-iframe {
+iframe:not(.trailer > iframe) {
 	width: 100%;
-    height: 5rem;
+	height: 5rem;
 }
 
 .container {

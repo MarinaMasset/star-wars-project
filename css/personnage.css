@@ -16,7 +16,7 @@
 }
 
 @media (max-width: 700px) {
-    .presentation{
+    .presentation{  
         flex-wrap: wrap;
     }
 }
