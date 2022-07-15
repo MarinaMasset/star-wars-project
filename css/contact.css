@@ -43,3 +43,10 @@ h1 {
 .bouton {
   margin-left: 50px;
 }
+
+#remarques{
+  max-width: 300px;
+  max-height: 140px;
+  min-width: 300px;
+  min-height: 140px;
+}
