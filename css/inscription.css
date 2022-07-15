@@ -1,0 +1,32 @@
+.inscrire {
+  color: #b98f3d;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  width: 600px;
+  height: 450px;
+  border: solid 1px #b98f3d;
+  border-radius: 5px;
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+}
+#compte{
+    margin: 5px;
+}
+#password {
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+}
+#oubli_cache{
+text-decoration: none;
+}
+#inscription {
+  border: solid 2px #b98f3d;
+  border-radius: 2px;
+  color: #b98f3d;
+  background-color: black;
+}

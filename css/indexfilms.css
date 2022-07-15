@@ -14,10 +14,15 @@
     text-decoration: none;
     color: black;
 }
-.left:hover, .center:hover, .right:hover {
-    border: 2px solid black;
-    font-size: 1.5rem;
-    font-weight: bold;
+.lien:hover{
+    border: 2px solid #b98f3d;
+}
+.lien>p, h1{
+    color: #b98f3d;
+}
+.lien>img {
+    width: 85%;
+    weight: 85%
 }
 iframe {
     width: 100%;

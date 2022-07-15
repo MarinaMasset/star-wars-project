@@ -7,11 +7,16 @@ footer {
 .pied {
 	display: flex;
 	flex-flow: row nowrap;
-	justify-content: space-evenly;
+	justify-content: space-between;
 }
-a {
+.pied>a {
 	text-align: center;
 }
 .credit {
 	text-align: center;
+}
+@media screen and (max-width:770px) {
+	.pied {
+		flex-flow: column nowrap;
+	}
 }

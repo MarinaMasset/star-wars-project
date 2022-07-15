@@ -1,0 +1,52 @@
+body {
+  background-image: url(../images/background/starrysky.jpg);
+  
+}
+
+.contact {
+  color: gold;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  width: 600px;
+  height: 300px;
+  border: solid 1px gold;
+  border-radius: 5px;
+  background-color: black;
+}
+h1 {
+  text-align: center;
+}
+#contacts {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+#infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#envoyer {
+  border: solid 2px gold;
+  border-radius: 2px;
+  color: gold;
+  background-color: black;
+}
+#reset {
+  border: solid 2px gold;
+  border-radius: 2px;
+  color: gold;
+  background-color: black;
+}
+.bouton {
+  margin-left: 50px;
+}
+
+#remarques{
+  max-width: 300px;
+  max-height: 140px;
+  min-width: 300px;
+  min-height: 140px;
+}
