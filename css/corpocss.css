@@ -33,9 +33,10 @@ h2 {
 
 
 .card {
+    border-radius: 7px;
+    padding-left: 3%;
     border: solid 2px yellow;
     height: 160px;
-    width: 115px;
+    width: 120px;
 }
 
-}
