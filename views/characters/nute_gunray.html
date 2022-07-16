@@ -111,5 +111,23 @@
 		<footer>
 			<iframe src="../../views/footer.html" frameborder="0"></iframe>
 		</footer>
+		<script>
+			const code = ["ArrowUp", "ArrowUp", "ArrowDown", "ArrowDown", "ArrowLeft", "ArrowRight", "ArrowLeft", "ArrowRight", "b", "a"];
+			let keys = [];
+
+			document.addEventListener("keydown", (event) => {
+				if (keys.length > 11 || (event.key == "ArrowUp" && (keys.length != 1 || keys[0] != "ArrowUp"))) {
+					keys = [];
+				}
+
+				keys.push(event.key);
+
+				if (event.key == "a" && keys.toString == code.toString) {
+					window.location.href = window.location.href.replace("nute_gunray.html", "easteregg.html#test");
+					console.log();
+					keys = [];
+				}
+			});
+		</script>
 	</body>
 </html>
