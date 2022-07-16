@@ -203,9 +203,9 @@ iframe:not(.trailer > iframe) {
 	background-color: black;
 }
 
+
 #compte {
-	width: 30%;
-    margin: auto;
+	margin: 5px;
 }
 #password {
 	text-align: left;
@@ -238,8 +238,7 @@ iframe:not(.trailer > iframe) {
 	background-color: black;
 }
 #logging {
-	width: 30%;
-    margin: auto;
+	margin: 5px;
 }
 #user {
 	text-align: left;
