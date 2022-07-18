@@ -401,9 +401,9 @@ iframe:not(.trailer > iframe) {
 	margin: 5% 0% 10% 0%;
 }
 
-.left>a,
+.left1>a,
 .center>a,
-.right>a {
+.right1>a {
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: center;
@@ -460,8 +460,6 @@ h1 {
 .left {
 	float: left;
 	width: 30px;
-
-
 }
 
 
