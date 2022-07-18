@@ -1,3 +1,4 @@
+/* css parent */
 @font-face {
   font-family: "Moonhouse";
   src: url("fonts/Moonhouse-yE5M.ttf") format("truetype");
@@ -42,8 +43,8 @@ iframe:not(.trailer > iframe) {
   margin-right: 10% !important;
 }
 
-/* index corpo & planetes */
 
+/* index corpo & planetes */
 .title {
   color: #efa23a;
   text-align: center;
@@ -87,7 +88,6 @@ iframe:not(.trailer > iframe) {
 }
 
 /* personnage & corpo & planetes */
-
 .presentation {
   display: flex;
   align-items: center;
@@ -125,7 +125,6 @@ iframe:not(.trailer > iframe) {
 }
 
 /* movies */
-
 .movie {
   display: flex;
   align-items: center;
@@ -201,7 +200,6 @@ iframe:not(.trailer > iframe) {
 }
 
 /* inscription */
-
 .inscrire {
   display: flex;
   color: #b98f3d;
@@ -227,6 +225,7 @@ h4 {
   text-align: center;
 }
 
+
 #compte {
   margin: 5px;
 }
@@ -248,8 +247,8 @@ h4 {
   background-color: black;
 }
 
-/* connexion */
 
+/* connexion */
 .connect {
   display: flex;
   color: #b98f3d;
