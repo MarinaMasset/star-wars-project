@@ -9,12 +9,14 @@ header {
   flex-flow: row nowrap;
   justify-content: flex-start;
   align-items: center;
+  max-width: 70%;
 }
 .droite {
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-end;
   align-items: center;
+  max-width: 30%;
 }
 .gauche>a {
   font-size: large;
@@ -26,7 +28,7 @@ header {
   border-radius: 2rem;
   background-color: #b98f3d;
   padding: 1% 5% 1% 5%;
-  margin-left: 10%;
+  margin-right: 10%;
   text-decoration: none;
   color: black;
   box-shadow: 3px 2px 2px grey;
@@ -39,48 +41,13 @@ header {
   justify-content: space-between;
 }
 
-@media screen and (max-width:820px) {
-  .menuheader {
-    width:initial;
-  }
-  .gauche>a {
-    margin-right: 0%; 
-}
-}
-
-@media screen and (min-width:801px) and (max-width:820px) {
-  .gauche>a {
-    margin-right: 5%; 
-  }
-  }
-
-@media screen and (max-width:820px) {
-  header {
-    width:100%;
-    justify-content: space-evenly;
-  }
-  .menuheader {
-    display:flex;
-    flex-direction:column;
-  }
-  .droite {
-    height:80px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-  }
-}
-
 @media screen and (max-width:320px) {
-header {
-  font-size: 0.7em;
-}
 .droite {
   margin-right: 4%;
 }
 }
 
-@media screen and (min-width:360px) and (max-width:416px) {
+@media screen and (min-width:321px) and (max-width:416px) {
   .droite {
     margin-right:5%;
     margin-top:2%;
@@ -106,25 +73,39 @@ header {
   }
 }
 
-@media screen and (min-width:821px) and (max-width:912px) {
+@media screen and (min-width:821px) {
   .gauche>a {
-    margin-right: 0%; 
+    margin-right: 0%;
+  }
+}
+
+@media screen and (max-width:820px) {
+  header {
+    width:100%;
+    justify-content: space-evenly;
   }
   .menuheader {
-    width:500px;
+    display:flex;
+    flex-direction:column;
   }
+  .droite {
+    height:80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .menuheader {
+    width:initial;
+  }
+}
+
+@media screen and (min-width:821px) and (max-width:912px) {
   .droite {
     margin-right:2%;
   }
 }
 
 @media screen and (min-width:913px) and (max-width:1024px) {
-  .gauche>a {
-    margin-right: 0%; 
-  }
-  .menuheader {
-    width:580px;
-  }
   header {
     width:100%;
     justify-content: space-between;
@@ -135,9 +116,6 @@ header {
 }
 
 @media screen and (min-width:1025px) and (max-width:1280px) {
-  .gauche>a {
-    margin-right: 0%; 
-  }
   .menuheader {
     margin-left:2%;
   }
