@@ -350,7 +350,7 @@ iframe:not(.trailer > iframe) {
 	background-size: cover;
 }
 
-.list {
+.list1 {
 	display: flex;
 	align-content: space-between;
 	justify-content: space-around;
