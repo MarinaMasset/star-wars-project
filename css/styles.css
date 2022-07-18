@@ -61,9 +61,10 @@ iframe:not(.trailer > iframe) {
 }
 
 .list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	justify-content: space-around;
 }
 
 .card img {
@@ -357,12 +358,12 @@ h4 {
   background-size: cover;
 }
 
-.list {
-  display: flex;
-  align-content: space-between;
-  justify-content: space-around;
-  align-items: flex-start;
-  flex-wrap: wrap;
+.list1 {
+	display: flex;
+	align-content: space-between;
+	justify-content: space-around;
+	align-items: flex-start;
+	flex-wrap: wrap;
 }
 
 .card1 {
@@ -425,7 +426,7 @@ h1 {
 
 .lien > img {
   width: 85%;
-  weight: 85%;
+  /* height: 85%; */
 }
 
 .indexfilm {
