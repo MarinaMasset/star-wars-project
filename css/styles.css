@@ -63,6 +63,7 @@ iframe:not(.trailer > iframe) {
 .list {
 	display: flex;
 	flex-wrap: wrap;
+	align-items: stretch;
 	justify-content: space-around;
 }
 
