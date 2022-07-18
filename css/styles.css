@@ -1,3 +1,4 @@
+/* css parent */
 @font-face {
 	font-family: "Moonhouse";
 	src: url("fonts/Moonhouse-yE5M.ttf") format("truetype");
@@ -42,8 +43,8 @@ iframe:not(.trailer > iframe) {
 	margin-right: 10% !important;
 }
 
-/* index corpo & planetes */
 
+/* index corpo & planetes */
 .title {
 	color: #efa23a;
 	text-align: center;
@@ -87,7 +88,6 @@ iframe:not(.trailer > iframe) {
 }
 
 /* personnage & corpo & planetes */
-
 .presentation {
 	display: flex;
 	align-items: center;
@@ -124,7 +124,6 @@ iframe:not(.trailer > iframe) {
 }
 
 /* movies */
-
 .movie {
 	display: flex;
 	align-items: center;
@@ -200,7 +199,6 @@ iframe:not(.trailer > iframe) {
 }
 
 /* inscription */
-
 .inscrire {
 	display: flex;
 	color: #b98f3d;
@@ -219,8 +217,6 @@ iframe:not(.trailer > iframe) {
 	align-content: center;
 	align-items: center;
 }
-
-
 
 #compte {
 	margin: 5px;
@@ -243,8 +239,8 @@ iframe:not(.trailer > iframe) {
 	background-color: black;
 }
 
-/* connexion */
 
+/* connexion */
 .connect {
 	display: flex;
 	color: #b98f3d;
@@ -401,9 +397,9 @@ iframe:not(.trailer > iframe) {
 	margin: 5% 0% 10% 0%;
 }
 
-.left>a,
+.left1>a,
 .center>a,
-.right>a {
+.right1>a {
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: center;
@@ -451,6 +447,19 @@ h1 {
 	width: 80PX;
 }
 
+<<<<<<< HEAD
 
+=======
+.right {
+	float: right;
+	width: 30px;
+
+}
+
+.left {
+	float: left;
+	width: 30px;
+}
+>>>>>>> 833f0cfbb7f8777bbc91af27a128e98021bb4826
 
 
