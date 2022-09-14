@@ -13,6 +13,7 @@ The website includes:
   - A log-in, sign-up and contact us page.
 
  FR
+ 
  Ceci est un projet de groupe réalisé entre le 11 et le 15 juillet 2022.
  On nous a expressément demandé de n'utiliser que du HTML et du CSS pour développer ce fansite de Star Wars.
  Le site comprend :
